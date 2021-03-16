@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;400;700;900&display=swap');
+
+
+
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+	--color-blanco:#fff;
+	--fondo-see:#f7f7f7;
+}
+
+body{
+    font-family: 'Catamaran', sans-serif;
+	font-size: 14px;
+
+}
+
+header{
+	background-color: #fff;
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
+
+#top-hero{
+	background-image: url("../img/bg-services-title.jpg");
+	padding: 10%;
+	margin-bottom: 50px;
+	
+}
+
+#top-hero h2{
+	color: #fff;
+	font-size: 80px;
+	font-weight: 700;
+	text-align: center;
+}
+#services h4,p{
+	
+	text-align: center;
+}
+#services{
+	
+	margin-bottom: 50px;
+}
+
+.circulo{
+	
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	border-radius: 0%;
+	display: block;
+	margin: auto;
+	text-align:center;
+	font-size: 30px;
+}
+#see{
+	padding: 5%;
+	background-color: var(--fondo-see);
+}
+
+#see h2,p{
+	text-align: center;
+
+}
+
+#see h2{
+	
+	font-weight:700;
+}
+#see p{
+	margin-bottom: 20px;
+}
+#see img{ 
+margin-bottom: 25px;
+	
+}
+
+#see h4{
+	
+	text-align: center;
+	font-weight: 700;
+}
